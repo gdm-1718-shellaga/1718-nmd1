@@ -22,13 +22,13 @@ html{
 }
 
 .vierkant1{
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     background-color: white;
     position: relative;
     margin: 20px;
-    margin-top: 50px;
-    margin-left: 220px;
+    margin-top: 35px;
+    margin-left: 250px;
     display: inline-block;
 }
 .vierkant2{
@@ -41,13 +41,13 @@ html{
     display: inline-block;
 }
 .vierkant3{
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     background-color: white;
     position: relative;
     display: inline-block;
     margin: 20px;
-    margin-top: 50px;
+    margin-top: 35px;
 }
 
 i{
