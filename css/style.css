@@ -1,10 +1,56 @@
 html{
     font-family: 'Droid Sans', sans-serif;
-    color: black;
+    color: rgb(92, 92, 92);
 }
 
 .hello{
     width: 500px;
-    color: antiquewhite;
+    height: 30px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.keuze{
+    width: 1250px;
+    height: 350px;
+    background-color: antiquewhite;
+    position: absolute;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.vierkant1{
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    position: relative;
+    margin: 20px;
+    margin-top: 50px;
+    margin-left: 220px;
+    display: inline-block;
+}
+.vierkant2{
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    position: relative;
+    margin: 20px;
+    margin-top: 50px;
+    display: inline-block;
+}
+.vierkant3{
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+    margin-top: 50px;
+}
+
+i{
+    color: rgb(92, 92, 92);
     margin: auto;
 }
