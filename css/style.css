@@ -4,49 +4,21 @@ html{
 }
 
 .hello{
-    width: 500px;
-    height: 30px;
-    margin: auto;
-    margin-top: 100px;
-    margin-bottom: 100px;
     text-align: center;
-}
-
-.keuze{
     width: 1250px;
-    height: 350px;
-    background-color: antiquewhite;
+    color: black;
+    position: absolute;
     margin: auto;
 }
 
-.vierkant1{
-    width: 200px;
-    height: 200px;
-    background-color: white;
+.intro{
+    margin: auto;
+    text-align: center;
     position: relative;
-    margin: 20px;
-    margin-top: 35px;
-    margin-left: 250px;
-    display: inline-block;
+    width: 1250px;
+    height: 240px;
 }
-.vierkant2{
-    width: 250px;
-    height: 250px;
-    background-color: white;
-    position: relative;
-    margin: 20px;
-    margin-top: 50px;
-    display: inline-block;
-}
-.vierkant3{
-    width: 200px;
-    height: 200px;
-    background-color: white;
-    position: relative;
-    display: inline-block;
-    margin: 20px;
-    margin-top: 35px;
-}
+
 
 i{
     color: rgb(92, 92, 92);
