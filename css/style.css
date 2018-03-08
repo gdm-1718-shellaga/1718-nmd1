@@ -16,8 +16,6 @@ html{
     width: 1250px;
     height: 350px;
     background-color: antiquewhite;
-    position: absolute;
-    justify-content: space-between;
     margin: auto;
 }
 
