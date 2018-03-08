@@ -17,6 +17,7 @@ html{
 
 .intro{
     margin: auto;
+    top: 100px;
     text-align: center;
     position: relative;
     width: 1250px;
@@ -30,5 +31,17 @@ img{
 
 i{
     color: rgb(92, 92, 92);
+    margin: auto;
+}
+
+.balk{
+    width: 1250px;
+    height: 80px;
+    height: 15%;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.308);
+    z-index: 5;
+    position: fixed;
     margin: auto;
 }
