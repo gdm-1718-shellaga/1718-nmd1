@@ -50,7 +50,7 @@ img{
     display: flex;
     position: absolute;
     background-color: white;
-    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.308);
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.508);
     z-index: 5;
     position: fixed;
     margin: auto;
@@ -81,9 +81,7 @@ a{
 }
 
 a:hover{
-    position: absolute;
     top: 100%;
-    content: attr(data-hover);
     display: inline-block;
     position: relative;
     -webkit-transition: 0.5s;
@@ -91,19 +89,19 @@ a:hover{
     -ms-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
-    padding: 0 4px;
+    padding: 0 5px;
     display: inline-block;
-    margin: 4px 16px;
+    margin: auto;
     overflow: hidden;
     letter-spacing: 1px;
-    font-size: 16px;
+    font-size: 18px;
     text-decoration: none;
-    border-bottom: 2px solid transparent;
-    color: #333;
+    border-bottom: 1px solid #BAB1B9;
+    color: #BAB1B9;
 }
 
 a:active{
-    color: #F2E6F1;
+    color: #333;
     -webkit-transition: 0.15s;
     -moz-transition: 0.15s;
     -ms-transition: 0.15s;
