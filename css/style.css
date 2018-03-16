@@ -109,3 +109,8 @@ a:active{
     -o-transition: 0.15s;
     transition: 0.15s;
 }
+
+.button{
+    display: inline-block;
+    color: white;
+}
