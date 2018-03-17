@@ -30,17 +30,18 @@ img{
     height: 100%;
 }
 
-.fa-chevron-circle-down{
+.fa-arrow-circle-down{
     color: black;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 40px;
+    z-index: 4;
 }
 
-.fa-chevron-circle-down:hover{
+.fa-arrow-circle-down:hover{
     opacity: 0.5;
     }
     
-.fa-chevron-circle-down:active{
+.fa-arrow-circle-down:active{
     color:gray;
 }
 
@@ -71,10 +72,7 @@ img{
     padding: 40px;
 }
 
-.over{
-    background-color: whitesmoke;
-    height: 500px;
-}
+
 
 a{
     text-decoration: blink;
@@ -110,7 +108,7 @@ a:active{
     transition: 0.15s;
 }
 
-.button{
-    display: inline-block;
-    color: white;
+.knop{
+    background-color: black;
+    margin: auto;
 }
