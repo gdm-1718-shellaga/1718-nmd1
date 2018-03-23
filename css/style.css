@@ -8,7 +8,7 @@ html{
 }
 
 
-.hello{
+.home{
     width: 1250px;
     color: black;
     position: absolute;
@@ -78,7 +78,6 @@ html{
 }
 
 
-
 a{
     text-decoration: blink;
     color: black;
@@ -93,6 +92,8 @@ a:hover{
     -ms-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
+    transform: scale(1.2); /* DEES HEB IK AANGEPAST */
+    display: inline-block;
     padding: 0 5px;
     display: inline-block;
     margin: auto;
@@ -204,9 +205,10 @@ a:active{
     margin: auto;
     padding: 50px;
     padding-right: 100px;
-    margin-bottom: 10px;
     margin-bottom: 50px;
+    text-align: left;
 }
+
 
 .opleidingen h1{
     padding-top: 60px;
