@@ -93,12 +93,11 @@ a:hover{
     -ms-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
-    padding: 0 5px;
+    transform: scale(1.2); /* DEES HEB IK AANGEPAST */
     display: inline-block;
     margin: auto;
     overflow: hidden;
     letter-spacing: 1px;
-    font-size: 18px;
     text-decoration: none;
     border-bottom: 1px solid #BAB1B9;
     color: #BAB1B9;
