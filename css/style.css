@@ -97,13 +97,9 @@ a:hover{
     -ms-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
-<<<<<<< HEAD
     transform: scale(1.2); /* DEES HEB IK AANGEPAST */
     display: inline-block;
     padding: 0 5px;
-=======
-    transform: scale(1.2) ; /* DEES HEB IK AANGEPAST */
->>>>>>> 4632fbd8f1f57fb848b2e6ab26dbda71b6ea2962
     display: inline-block;
     margin: auto;
     overflow: hidden;
