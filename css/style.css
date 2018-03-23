@@ -253,12 +253,11 @@ a:active{
 }
 
 .footer{
-    height: 200px;
+    height: 150px;
     width: 1000px;
     margin: auto;
-    margin-top: 60px;
+    margin-top: 150px;
     padding-right: 100px;
-    margin-bottom: 10px;
     margin-bottom: 50px;
     text-align: left;
     position: relative;
@@ -273,17 +272,14 @@ a:active{
 }
 
 .footer_info{
-    height: 200px;
-    width: 200px;
-    margin-top: 60px;
     padding-left: 100px;
     margin: auto;
     font-size: 16px;
     font-weight: 300;
     position: absolute;
-    top: 2730px;
-    margin-left: 1050px;
+    margin-left: 800px;
     text-align: right;
+    top: 75px;
     }
     
 .footer_info h2{
