@@ -1,6 +1,7 @@
 html{
     font-family: 'Droid Sans', sans-serif;
     scroll-behavior: smooth;
+    background-color: whitesmoke;
 }
 
 
@@ -14,7 +15,7 @@ html{
     text-align: center;
     height: 100%;
     width: 99%;
-    height: 1000px;
+    height: 250px;
 }
 
 .intro{
@@ -25,7 +26,7 @@ html{
     width: 100%;
 }
 
-img{
+.intro img{
     width: 100%;
     height: 100%;
 }
@@ -111,4 +112,42 @@ a:active{
 .knop{
     background-color: black;
     margin: auto;
+}
+
+.over{
+    background-color: white;
+    height: 300px;
+    width: 1000px;
+    top: 100px;
+    margin: auto;
+    padding: 50px;
+}
+
+
+.over img{
+    border-top-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-top-right-radius: 100%;
+    position: absolute;
+    margin-left: -700px;
+    margin-top: -160px;
+}
+
+.over h1, .over p{
+    padding-left: 500px;
+    text-align: left;
+}
+
+.over h1{
+padding-top: 80px;
+}
+
+.over2{
+    background-color: whitesmoke;
+    height: 300px;
+    width: 1000px;
+    top: 100px;
+    margin: auto;
+    padding: 50px;
 }
