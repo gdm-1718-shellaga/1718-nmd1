@@ -387,3 +387,8 @@ a:hover{
     transform: scale(1.05);
     color: #dfd69d;
     }
+
+    .ja{
+        width: 600px;
+        color: antiquewhite;
+    }
