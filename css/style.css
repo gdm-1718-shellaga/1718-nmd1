@@ -328,14 +328,59 @@ a:hover{
 
 .opdrachten{
     background-color: white;
-    height: 300px;
-    width: 1000px;
+    height: 700px;
     margin: auto;
     padding: 50px;
     padding-right: 100px;
     margin-bottom: 10px;
     margin-bottom: 50px;
+    background-color: white;
+    width: 1050px;
+    top: 100px;
+    margin: auto;
+    padding: 50px;
+    padding-left: 50px;
+    margin-top: 70px;
+    margin-bottom: 50px;
 }
+
+.opdrachten img{
+    margin: 65px;
+    margin-top: 20px;
+    border-top-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-top-right-radius: 100%;
+    z-index: 5;
+}
+
+.opdrachten img:hover{
+    opacity: 0.3;
+    transform: none;
+    transition: none;
+    }
+        
+.opdrachten img:active{
+    opacity: 0.7;
+    }
+
+    .opdrachten a:hover{
+    top: 100%;
+    display: inline-block;
+    position: relative;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    transform: scale(1.1);
+    overflow: hidden;
+    letter-spacing: 1px;
+    text-decoration: none;
+    border-bottom: 0px;
+    color: #dfd69d;
+
+    }
 
 .opdrachten h1{
     padding-top: 60px;
