@@ -1,0 +1,41 @@
+body{
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 14px;
+}
+table td{
+    padding: 20px;
+    text-align: left;
+    font-size: 12px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+}
+
+.border{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.30);
+    border-top: 1px solid rgba(255, 255, 255, 0.30);
+}
+
+table th{
+    background-color: rgba(255, 255, 255, 0.30);
+    text-align: left;
+    padding: 20px 330px 20px 20px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+table{
+    border-collapse: collapse;
+    color: white;
+}
+
+.border{
+    border: 1px solid rgba(255, 255, 255, 0.30);
+}
+
+html{
+    background: -webkit-linear-gradient(left, rgb(110, 221, 119) , rgb(13, 163, 201)); 
+    background: -o-linear-gradient(right,  rgb(110, 221, 119) , rgb(13, 163, 201); 
+}

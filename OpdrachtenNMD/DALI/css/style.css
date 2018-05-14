@@ -1,0 +1,27 @@
+html{
+    background-image: url("../images/DALI.jpg");
+    background-repeat: no-repeat;
+}
+
+body{
+    font-family: 'Lora', serif;
+}
+
+img{
+    width: 60%;
+    height: 60%;
+}
+
+p{
+    font-size: 38px;
+}
+
+h1{
+    font-size: 20px;
+    font-family:'Roboto', sans-serif;
+}
+
+blockquote{
+    margin-top: 150px;
+    margin-left: 580px;
+}

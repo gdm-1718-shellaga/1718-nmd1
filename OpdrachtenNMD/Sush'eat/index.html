@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Webtech 1 - Week 11 - Flexbox </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">    
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<div class="cards">
+    <article class="card">
+        <header id="header" class="card__header">
+        <h1 class="card__title">Sush'Eat</h1>
+        <button id="btnLike" class="card__button"><i class="fa fa-heart-o"></i></button>
+        </header>
+        <div class="card__content">
+            <div class="card__box">
+                <div class="intro">
+                <img src="http://img.freepik.com/free-vector/colorful-sushi-logo_23-2147501553.jpg?size=338&ext=jpg" class="card__logo">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pulvinar ut sem vitae placerat. Donec consectetur enim lacinia tempor volutpat. Cras vehicula orci at sem mattis, et egestas libero maximus.</p>
+                <div class="extra">
+                    <a href="#" class="comments"><i class="fa fa-comment"></i> 7 comments</a>
+                    <a href="#" class="likes"><i class="fa fa-heart"></i> <span id="numberOfLikes">54</span> likes</a>
+                </div>
+                </div>
+            </div>
+            <div class="card__box">
+                <h3 class="card__subtitle">Contact info</h3>
+                <address>
+                <ul class="card__contact-info">
+                    <li class="card__contact-info__item"><i class="fa fa-map-marker fa-fw"></i>Industrieweg 232, 9030 Gent</li>
+                    <li class="card__contact-info__item"><i class="fa fa-globe fa-fw"></i> <a href="http://www.sushe.at">www.sushe.at</a></li>
+                    <li class="card__contact-info__item"><i class="fa fa-envelope-o fa-fw"></i> <a href="mailto:hello@sushe.at">hello@sushe.at</a></li>
+                    <li class="card__contact-info__item"><i class="fa fa-phone fa-fw"></i> <a href="tel:003292348600">+32 (0)9 234 86 00</a></li>
+                </ul>
+                </address>
+            </div>
+        
+            <div class="card__box card__box--full">
+                <blockquote>
+                <p>We had a wonderful evening, the food was delicious.</p>
+                <small>Mark, Ghent</small>
+                </blockquote>
+            </div>
+        
+            <div class="card__box">
+                <h3 class="card__subtitle">Photos</h3>
+        
+                <div class="card__image-grid">
+                <img src="images/food1.jpg" alt="Gerecht 1">
+                <img src="images/food2.jpg" alt="Gerecht 2">
+                <img src="images/food3.jpg" alt="Gerecht 3">
+                <img src="images/food4.jpg" alt="Gerecht 4">
+                <img src="images/food5.jpg" alt="Gerecht 5">
+                <img src="images/food6.jpg" alt="Gerecht 6">
+                </div>
+            <a href="#">View all photos</a>
+            </div>
+            <div class="card__box">
+                <div class="list">
+                <div class="list__item">
+                    <span class="list__item__label">Kitchen</span> <span class="list__item__value">Japanese, Sushi, Asian</span>
+                </div>
+                <div class="list__item">
+                    <span class="list__item__label">Avg. Price</span> <span class="list__item__value">&euro; 35,-</span>
+                </div>
+                <div class="list__item">
+                    <span class="list__item__label">Facilities</span> <span class="list__item__value">Bar, parking, terras</span>
+                </div>
+                </div>
+            </div>
+            <button id="btnShowReservation" class="button button--primary button--large button--block">Make a reservation</button>
+            <div id="formReservation" class="card__box card__box--collapse">
+                <form class="form">
+                <label class="form__label">
+                    Firstname
+                    <input type="text" name="firstname" class="form__input">
+                </label>
+                <label class="form__label">
+                    Name
+                    <input type="text" name="lastname" class="form__input">
+                </label>
+                <label class="form__label">
+                    Email
+                    <input type="email" name="email" class="form__input">
+                </label>
+                <label class="form__label">
+                    Number of persons
+                    <input type="number" name="numberOfPersons" class="form__input">
+                </label>
+                <label class="form__label">
+                    Date
+                    <input type="date" name="date" class="form__input">
+                </label>
+                <button type="submit" name="sendReservation" class="button button--primary button--block">Send reservation</button>
+                </form>
+            </div>
+        </div>
+    </article>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+}
+
+h1{
+    margin: 60px auto 30px auto;
+    color:rgb(0, 73, 182);
+    font-size: 28px;
+}
+
+img{
+    border: 3px solid rgb(0, 73, 182);
+    width: 100%;
+}
+.positioning{
+    position: relative;
+    width: 400px;
+}
+
+.tekst{
+    position: absolute;
+    bottom: 10px;
+    background-color: rgba(0, 73, 182, 0.5);
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+
+}
+
+.travel{
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    color: white;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
